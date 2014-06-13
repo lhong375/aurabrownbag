@@ -1,0 +1,12 @@
+<aura:component controller="java://org.myGroup.java.controller.JavaTestController">
+    <aura:attribute name="stringAttribute" type="String" default="default value"/>
+    <ui:button aura:id="trigger" press="{!c.getServerString}" label="get a string"/>
+    Aura Basics: Js test with component<br/>
+    <br/>
+    2. Mock Action <br/>
+    
+    <div aura:id="output">
+        {!v.stringAttribute}
+    </div>
+
+</aura:component> 

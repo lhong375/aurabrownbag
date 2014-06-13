@@ -1,0 +1,8 @@
+<aura:component model="java://org.myGroup.java.model.TestJavaModel">
+    Aura Basics: Js test with component<br/>
+    <br/>
+    2. Mock Model <br/>
+    <div aura:id="output">
+        {!m.secret}
+    </div>
+</aura:component> 

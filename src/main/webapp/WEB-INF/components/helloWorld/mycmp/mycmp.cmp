@@ -1,0 +1,12 @@
+<aura:component>
+
+    Aura Basics: Js test with component<br/>
+    <br/>
+    1. pass in attribute<br/>
+
+    <aura:attribute type="String" name="strAttributeWithDefaultValue" default="someDefaultValue"/>
+    <br/>
+    strAttributeWithDefaultValue is : {!v.strAttributeWithDefaultValue}
+    <br/>
+
+</aura:component>
