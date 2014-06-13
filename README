@@ -1,0 +1,15 @@
+From command line
+1. compile 
+mvn clean install
+2. run
+mvn jetty:run
+3. play !
+just the component
+http://localhost:8080/helloWorld/basic0X.cmp
+run the test
+http://localhost:8080/helloWorld/basic0X.cmp?aura.mode=JSTEST
+X = 1,2,3
+
+note:
+we need the latest aura jars with Gerald's fix to get aura.mode=JSTEST to work -- that's what 0.1065-SNAPSHOT in pom.xml is. 
+before that fix get into the public aura repository, pull and build aura with my branch : https://github.com/lhong375/aura.git 
